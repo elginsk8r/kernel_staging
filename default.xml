@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="caf"
+           fetch="https://source.codeaurora.org/quic/la" />
+
+  <default revision="refs/tags/LA.UM.9.16.r1-03300-MANNAR.0"
+           remote="caf"
+           sync-j="4" />
+
+  <project path="kernel" name="kernel/msm-5.4" groups="qcom,kernel" revision="e000a079ff5216169609daf4292f31fbc3a0b15e" />
+  <project path="techpack/audio" name="platform/vendor/opensource/audio-kernel" groups="qcom,kernel" revision="0c55418d3568522c057194592b39357efe97343c" />
+  <project path="techpack/camera" name="platform/vendor/opensource/camera-kernel" groups="qcom,kernel" revision="a71fdfe274f5660b089a220d153081ee71f044ee" />
+  <project path="techpack/dataipa" name="platform/vendor/opensource/dataipa" groups="qcom,kernel" revision="ef6ad72b699a6419ed3bb20281dd6df51f00fee2" />
+  <project path="techpack/display" name="platform/vendor/opensource/display-drivers" groups="qcom,kernel" revision="f48460d9a5ae9156feb79065bc0a1f2b17890fa3" />
+  <project path="techpack/sched" name="platform/vendor/opensource/sched" groups="qcom,kernel" revision="e99a2c48fdf7d58628ecd32c2de832ee13b04cda" />
+  <project path="techpack/video" name="platform/vendor/opensource/video-driver" groups="qcom,kernel" revision="42653320350e653aa4d10362595a598e7b992da2" />
+
+</manifest>
+
